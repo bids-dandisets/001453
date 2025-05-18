@@ -31,8 +31,8 @@ assetsSummary:
   - ProcessingModule
   - BehavioralTimeSeries
 citation: Fouke, Kaitlyn (2025) Neural circuits underlying divergent visuomotor strategies
-  of zebrafish and Danionella cerebrum (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001453/draft
+  of zebrafish and Danionella cerebrum (Version 0.250518.1950) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001453/0.250518.1950
 contributor:
 - affiliation: []
   email: kaitlyn.fouke@duke.edu
@@ -68,12 +68,13 @@ description: "This dataset was used in \"Neural circuits underlying divergent vi
   visuomotor strategies among teleost species with shared circuit motifs, establishing
   a framework for unraveling the neural mechanisms driving continuous and discrete
   locomotion."
-id: DANDI:001453/draft
+doi: 10.48324/dandi.001453/0.250518.1950
+id: DANDI:001453/0.250518.1950
 identifier: DANDI:001453
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001453/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001453/0.250518.1950/assets.yaml
 name: Neural circuits underlying divergent visuomotor strategies of zebrafish and
   Danionella cerebrum
 publishedBy:
@@ -91,5 +92,5 @@ publishedBy:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001453/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001453/0.250518.1950
+version: 0.250518.1950
