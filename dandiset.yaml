@@ -7,9 +7,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3823109128
+  numberOfFiles: 37
+  numberOfSubjects: 25
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+    name: Danio rerio - Zebra fish
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - BehavioralTimeSeries
 citation: Fouke, Kaitlyn (2025) Neural circuits underlying divergent visuomotor strategies
   of zebrafish and Danionella cerebrum (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001453/draft
@@ -22,6 +42,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-05-18T14:33:37.060787+00:00'
+datePublished: '2025-05-18T19:50:10.255848+00:00'
 description: "This dataset was used in \"Neural circuits underlying divergent visuomotor
   strategies of zebrafish and Danionella cerebrum\" (Current Biology, 2025, https://doi.org/10.1016/j.cub.2025.04.027).\n
   \nMany animals respond to sensory cues with species-specific coordinated movements.1,2
@@ -55,6 +76,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001453/versions/draft/assets/
 name: Neural circuits underlying divergent visuomotor strategies of zebrafish and
   Danionella cerebrum
+publishedBy:
+  endDate: '2025-05-18T19:50:10.255848+00:00'
+  id: urn:uuid:5dade24c-f7aa-4d58-83ed-71a7079f72c7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-05-18T19:50:10.255848+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:002891d0-880e-41c8-a63d-b0e40d0e0636
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
